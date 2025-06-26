@@ -19,6 +19,71 @@ body {
     flex-direction: column;
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    box-shadow: 0 2px 8px rgba(224, 224, 224, 0.2);
+}
+
+body.dark-mode nav ul.nav-links li a,
+body.dark-mode nav ul.nav-links li button {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav ul.nav-links li a:hover,
+body.dark-mode nav ul.nav-links li button:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(224, 224, 224, 0.15);
+    color: #e0e0e0;
+}
+
+body.dark-mode .project {
+    background: #2a2a2a;
+    box-shadow: 0 12px 35px rgba(224, 224, 224, 0.25);
+    color: #e0e0e0;
+}
+
+body.dark-mode form input,
+body.dark-mode form textarea {
+    background-color: #2a2a2a;
+    border-color: #555555;
+    color: #e0e0e0;
+}
+
+body.dark-mode form input:focus,
+body.dark-mode form textarea:focus {
+    border-color: #888888;
+}
+
+body.dark-mode form button {
+    background: linear-gradient(135deg, #444444, #666666);
+    color: #e0e0e0;
+    box-shadow: 0 10px 30px rgba(68, 68, 68, 0.5);
+}
+
+body.dark-mode form button:hover {
+    background: linear-gradient(135deg, #666666, #444444);
+    color: #ffffff;
+}
+
+body.dark-mode a {
+    color: #bbbbbb;
+}
+
+body.dark-mode a:hover {
+    color: #ffffff;
+}
+
 header {
     background-color: #f4d1b0;
     color: #5a3e36;
